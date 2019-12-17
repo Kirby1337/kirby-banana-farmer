@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: #a40a3c;
+    color: white;
+    font-family: "Arial";
+}
+
+img {
+    width: 450px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    font-size: 24px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: white;
+}
+
+img {
+    transition: 0.1s;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+img:active {
+    transform: scale(0.9);
+}
